@@ -18,21 +18,20 @@ body {
 .switch-label {
   display: inline-block;
   cursor: pointer;
-  background: #fff;
-  color: #111;
+  background: #121010;
+  color: #22ff55;
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 5px;
   margin-top: 10px;
   margin: 0 auto;
-  box-shadow: 0 2px #666;
 }
 .switch-label::after {
-  content: ">>";
+  content: "";
 }
 .switch-label::before {
-  content: " ";
+  content: "";
   display: inline-block;
   border-radius: 100%;
   width: 10px;
@@ -50,72 +49,72 @@ body {
   background: #22ff55;
 }
 #switch:checked + .switch-label::after {
-  content: "||";
+  content: "";
 }
 
 @keyframes flicker {
   0% {
-    opacity: 0.77203;
+    opacity: 0.76454;
   }
   5% {
-    opacity: 0.61175;
+    opacity: 0.16135;
   }
   10% {
-    opacity: 0.02092;
+    opacity: 0.10338;
   }
   15% {
-    opacity: 0.21262;
+    opacity: 0.93716;
   }
   20% {
-    opacity: 0.41873;
+    opacity: 0.68082;
   }
   25% {
-    opacity: 0.07341;
+    opacity: 0.4006;
   }
   30% {
-    opacity: 0.31599;
+    opacity: 0.68754;
   }
   35% {
-    opacity: 0.80655;
+    opacity: 0.42767;
   }
   40% {
-    opacity: 0.20552;
+    opacity: 0.06452;
   }
   45% {
-    opacity: 0.65657;
+    opacity: 0.94341;
   }
   50% {
-    opacity: 0.93033;
+    opacity: 0.76564;
   }
   55% {
-    opacity: 0.62911;
+    opacity: 0.84346;
   }
   60% {
-    opacity: 0.27388;
+    opacity: 0.26671;
   }
   65% {
-    opacity: 0.81566;
+    opacity: 0.04448;
   }
   70% {
-    opacity: 0.5555;
+    opacity: 0.57717;
   }
   75% {
-    opacity: 0.99121;
+    opacity: 0.77282;
   }
   80% {
-    opacity: 0.27264;
+    opacity: 0.25362;
   }
   85% {
-    opacity: 0.98056;
+    opacity: 0.9718;
   }
   90% {
-    opacity: 0.8917;
+    opacity: 0.54963;
   }
   95% {
-    opacity: 0.10192;
+    opacity: 0.27043;
   }
   100% {
-    opacity: 0.54326;
+    opacity: 0.79966;
   }
 }
 .container {
@@ -256,11 +255,12 @@ body {
   animation: overlay-anim 5s linear;
   animation-fill-mode: forwards;
 }
+
 </style>
 </head>
 <body>
 <input type="checkbox" id="switch" checked>
-<label for="switch" class="switch-label"></label>
+<label for="switch" class="switch-label">Activate</label>
 
 <div class="container">
   <iframe src="https://www.friedrichcainer.com/Ex2/Team.html" class="screen" width="800" height="600"></iframe>
