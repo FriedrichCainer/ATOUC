@@ -5,7 +5,7 @@ layout: default
 <script>
 	$(document).ready(function () {
     $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
+        if ($(document).scrollTop() > 1250) {
             $("body").addClass("scrolled");
         } else {
             $("body").removeClass("scrolled");
@@ -14,7 +14,7 @@ layout: default
 });</script>
 
 
-<style>	
+<style>
 body {
     background-image: url(Cabin-bg.jpg);
     -webkit-transition: background-image 700ms linear;
@@ -30,118 +30,224 @@ body.scrolled {
 
 <div class="language-js highlighter-rouge">
 <div class="highlight" style="background:#303030;padding: 20px;overflow: auto;">
-<p><span class="kd">Robert >|</span> Good morning ladies and gentlemen.</p>
-<p><span class="kd">Robert >|</span> Welcome aboard Gany Air flight 51 bound for who knows where</p>
 
-<p>A ‘Trained hypnopompic response’ is what they called it. Like reaching for a pair of glasses in the morning or resetting the alarm in bed. Instead of glasses Catherine woke and immediately began a risk assessment. Before they had left for the mission the training had already ruined her traditional Sunday morning sleep in. The first sign of consciousness and she’d force herself awake and begin her checks. She did a quick scan for immediate threats, followed by a brisk self-check for injuries, and then operational checks.</p>
 
-<p><span class="kd">Robert >|</span> For now everyone sit tight</p>
+<p>Jonah admired his logo jacket whilst his Father admonished him over their final video call. Mostly gaming companies with a few premium hardware and vapes thrown in for good measure. He especially liked how they let him select his favourite brands, the fact they even sent him free products was also incredible.</p>
 
-<p>Next was a systems check. Under the external layer the suit was a honeycomb of small 5mm cells, 60% energy storage, 20% temperature control, 19% a mix of general computer and redundant storage, with the final 1% a selection of dedicated hardware accelerators for various machine vision, signal processing, and analysis packages.
-</p>
+	<p>“...which makes it the single greatest scientific find in the history of humanity and they sold, no bloody well auctioned, the rights to a soda company. Scientists should be going...”</p>
 
-<p><span class="kd">Robert >|</span> I want detailed env reports from all of you first</p>
+<p>He just noticed that even the material the logo patches were sewn onto was also covered in a custom pattern containing the same logos. Jonah wondered if they would also give him a matching spacesuit in the same design.</p>
 
-<p>External components were next; contact lens, haptic gloves, and the comms units on each shoulder. These would attempt to establish and maintain a local network using UHF, ultraviolet light and everything in-between including long-range lasers as the situation demanded.</p>
+	<p>“...and frankly the fact that blind luck got you into this position does not, and let’s be clear here, make you a fucking astronaut” Jonah responded by leaning back in his chair and exhaling slowly.</p>
 
-<p><span class="s1">Frederich >|</span> Looks like Catherine was right, it’s the aircraft cabin scenario</p>
+	<p>“Won, I won this Dad, it wasn’t luck, there was a competition.”</p>
 
-<p>Finally, the local network was established. The audio feed was enabled, but she saw the team had already joined a local chat channel, obviously to keep things silent.</p>
+<p>“A video game you mean.”</p>
 
-<p><span class="k">Helen >|</span> Initial rads are fine</p>
-<p><span class="k">Helen >|</span> (but the suits would be screeching if it wasn't)</p>
+<p>“Yes, and millions watched the final match.”</p>
 
-<p><span class="no">Catherine >|</span> Well thank fuck for that, I wasn’t looking forward to scenarios 8 through 22 :)</p>
+<p>His father opened his mouth to reply before thinking better of it and sitting back. He stared at his son in silence for a few minutes, watching him admire his jacket and other corporate gift’s they’d given him.</p>
 
-<p><span class="kd">Robert >|</span> I was holding out hope for scenario 1.</p>
+	<p>“Why do you want this?”</p>
 
-<p><span class="no">Catherine >|</span> Ah the benevolent benefactor welcome party, well that would have been nice...</p>
+<p>“It’s my big break dad, you kept saying I needed a real job and -”</p>
 
-<p><span class="se">Dan >|</span> No 3rd party comms I can see.</p>
+	<p>“This isn’t a job, it’s a marketing stunt”</p>
 
-<p><span style="color:#6e8afb">Margaret >|</span> Local positioning is up, adding everyone’s location to HUD.</p>
+<p>“It’s a job, they’re paying me, I’ll be streaming for the entire trip and they’ll be paying me more money than I’ve ever dreamed of.”</p>
 
-<p>Catherine’s displays already showed everyone was close, but she could now see their relative positions in her display. Robert, Helen, and Margaret were grouped together at the far end of the cabin with Dan on her row in the far aisle.</p>
+	<p>“Don’t go son.”</p>
 
-<p><span class="se">Dan >|</span> Everyone please note I have someone sitting beside me, he appears asleep.</p>
-<p><span class="k">Helen >|</span> Yeah I see 2 more in our row</p>
+<p>“Have to Dad, this is my big break.</p>
 
-<p><span class="kd">Robert >|</span> Hold off interacting for now but they’re only dozing</p>
-<p><span class="kd">Robert >|</span> Remember that hlé only knocks you out, it doesn’t sedate</p>
-<p><span class="kd">Robert >|</span> Once they wake remember protocol, mask opacity to 100%</p>
-<p><span class="kd">Robert >|</span> Be as reassuring as possible, nobody expects to wake up next to a spaceman.</p>
+<p>“Please, Jonah -”</p>
 
-<p><span class="k">Helen >|</span> Speak for yourself buddy</p>
+<p>“Gotta go, I’ll see you when I get back.”</p>
 
-<p><span style="color:#6e8afb">Margaret >|</span> Detailed atmo is back, Life support is basically the best case scenario</p>
-<p><span style="color:#6e8afb">Margaret >|</span> Atmospheric pressure is a comfortable 12psi</p>
-<p><span style="color:#6e8afb">Margaret >|</span> Composition the standard 78/21/1 split of Nitrogen, Oxygen and trace </p>
-<p><span style="color:#6e8afb">Margaret >|</span> Actually the trace is a bit off</p>
-<p><span style="color:#6e8afb">Margaret >|</span> CO2 very low at 300 parts per million and ozone just a little higher than normal.</p>
+</div></div>
 
-<p><span class="kd">Robert >|</span> Perfect, optimal life support scenario</p>
+---
 
-<p><span style="color:#6e8afb">Margaret >|</span> As long as the the proton-exchange membranes can extract oxygen then we won’t have any issues until power runs out, then it’s helmets off.</p>
+---
 
-<p><span class="no">Catherine >|</span> Which I would strongly advise not to, the risk of contamination is very real</p>
+<div class="language-js highlighter-rouge">
+<div class="highlight" style="background:#303030;padding: 20px;overflow: auto;">
 
-<p><span class="kd">Robert >|</span> I’ll take that risk over huffing vacuum any day</p>
+<p>Flashes of heat and strange flickering light woke Jonah moments before the screaming man burst through the curtains and died. His cries were strangled and he slumped upright between the curtains for a moment as if suspended by giant hands. When he fell forward seconds later his lower torso was wrapped in a blanket but beneath it looked like he’d been dead for days.</p>
 
-<p><span style="color:#6e8afb">Margaret >|</span> Ok so that’s the good news, now for the odd news</p>
-<p><span style="color:#6e8afb">Margaret >|</span> There is definitely organic contaminants</p>
-<p><span style="color:#6e8afb">Margaret >|</span> But you’ll never guess what it is</p>
+	<p>Jonah turned to his fellow passenger for comfort or at least make sense of what happened but was greeted by something monstrous. It stared straight ahead in silence, a face formed from distended proportions. </p>
 
-<p><span class="no">Catherine >|</span> Alien musk :)</p>
+<p>A rumbling noise like a kettle on the boil was coming from it’s head and Jonah only just managed to unbuckle and shield himself with his jacket before the thing’s skull exploded into a cloud of steam and viscera. Another explosion behind him made him scream as he commando crawled between the chairs babbling in terror.</p>
 
-<p><span style="color:#6e8afb">Margaret >|</span> Weirder, cigarette smoke. Not a lot but you’d easily smell it</p>
+	<p>As he rounded the corner into the other aisle his hands slipped on small beads that were pouring into the cabin from behind the curtains. Without thinking he pinched one between his fingers and recoiled as it burst with an acrid stink of biofuel. Furiously wiping his hands he only noticed movement in the seat above him at the last second.</p>
 
-<p><span class="no">Catherine >|</span> Makes sense</p>
-<p><span class="no">Catherine >|</span> They have probably been sampling the air from as far back as the 1970s</p>
-<p><span class="no">Catherine >|</span> Smoking wasn’t banned until the 90s</p>
-<p><span class="no">Catherine >|</span> The GAN’s they used to design this place would have split the difference.</p>
+	<p>It was perched on the headrest, hands gripping it like a bird's talons, the lower half was only ragged flaps of wet skin. Jonah could only look up and make a half choking sound before it sung to him. The song was all the respite he needed, it was his mother’s comfort as a child, it was rain while warm in bed. His heart was still hammering in his chest but it slowed as he curled up in the aisle. The beads still flowed around him and the gore rained down in a warm shower.</p>
 
-<p><span class="se">Dan >|</span> Team I have a situation</p>
+	<p>The creature carefully picked it’s way down the seat, still singing its lullaby as it nestled in beside him and formed its hands into a ring, a crown fit just for Jonah.</p>
+</div></div>
 
-<p><span class="kd">Robert >|</span> Switch to audio if it’s urgent</p>
+---
 
-<p>“I can see someone in my aisle, something is wrong though, they’re... crawling.”</p>
-<p>“Ok sit tight, can you see any signs of injury?”</p>
-<p>“Hold on, I need to switch to night vision… ah, ok, oh shit, fuck.”</p>
-<p>“Keep talking Dan, what can you see”</p>
-<p>“It’s a person- or no, I don’t know, it’s fucking huge Rob. It’s watching me, it’s not moving, it's just watching me talk to you.”
-<p>“Keep going, describe it”</p>
-<p>“Muscles, like a sprinter but the face is, I can’t describe it, horrible? Beautiful? It’s absolutely not human. It looks like… I don’t know, a bad copy of a person?”</p>
+---
 
-<p>Catherine could see Dan in her row, with her night vision switched on she could see him leaning into the aisle. She tried to see if she could see anything reflected in his helmet but couldn’t make anything out.</p>
+<div class="language-js highlighter-rouge">
+<div class="highlight" style="background:#303030;padding: 20px;overflow: auto;">
 
-<p>“Ok team, looks like we have first contact already. Dan I’ll need you to take out your contact tablet, stand up very slowly and place it in the aisle. Then you’re going to need to disengage, leave your chair and walk backward two rows, cross to the other aisle and make your way over to us.”</p>
+	<p>Jonah’s sleep was disturbed this time by birdsong and running water rather than a screaming corpse. The sheets were wonderfully soft and Jonah lay there for a while enjoying his sleep-in until his final moments caught up with him. Bolting upright and throwing back the covers he found himself dressed in a plain grey pair of track pants and t-shirt.</p>
 
-<p>Each member of the team had a small tablet intended for this event. On one side was an aluminium engraving containing an updated version of the Pioneer plaque, a series of pictograms introducing humanity, and how the tablet functioned. On the other side was a computer tablet that also attempted to establish wireless communication. The standards it used were exhaustively explained in an engraving only visible under a microscope. The tablets left out most of the more interesting details about humanity and instead focused on providing a Rosetta Stone for communication.</p>
+<p>The bed was sitting in the middle of a small forest glade, the air cool and fragrant with the earthy scent of the forest. The sunlight that filtered through the canopy was warm and a small stream babbled through the glade.</p>
 
-<p>Catherine watched as Dan carefully got out of his seat, removed the tablet strapped to his leg, and slowly lowered it into the aisle. He then started to back away when suddenly there was a scream from the man sitting beside him.</p>
+<p>“I hope you slept well?”</p>
 
-<p>“Sir please be quiet, this is just a spacesuit. My name is Dan Sawant and -”</p>
+<p>Jonah spun around to find where the voice had come from. She stepped out from the edge of the glade, pausing beside a tree before making her way toward him. Dressed in a crisp white pantsuit and matching runners she strode through the grass. Her hair was shaved on both sides and the whole look clearly signalled her position as some sort of corporate executive.</p>
 
-<p>Catherine realised too late that the man wasn't looking at Dan but rather behind him. A second figure in the dark rose up behind Dan until it towered a full foot above him. The team heard a gasp from Dan as the creature's hands connected with either side of his helmet. There was a ripping sound as it twisted the helmet and then kicked him in the chest tearing the helmet free.</p>
-<p>The creature in the aisle leapt up to the top of the seats and pounced on the man still screaming. The second threw Dan’s helmet aside, stepped over him and chased another of the passengers who was attempting to flee.</p>
-<p>“Catherine, can you see Dan?” Robert shouted as he and the rest of the team started to scramble from their seats.</p>
-<p>“Yes, I’m making my way over now”</p>
+<p>“I can, what -” Jonah stared at his knuckles, his brows writhing.</p>
 
-<p><span class="k">Helen >|</span> Vitals showing he’s in shock</p>
-<p><span style="color:#6e8afb">Margaret >|</span> Get that helmet back on him ASAP</p>
+<p>“It’s ok.” She closed the gap between them and laid a hand on his shoulder “Let’s have breakfast.”</p>
 
-<p>Catherine reached Dan in the aisle as one of the creatures was dragging the man still screaming down the aisle.</p>
-	<p>“Dan, get up, we need to move!”</p>
-<p>Dan looked dazed as Catherine helped him to his feet. The seats were empty now with the team and passengers driven into the next cabin or dragged into the one behind. They made their way up the aisle in the direction the rest of the team had gone. At the far end of the cabin was a curtain which Catherine opened and lead Dan through before remembering his helmet. She went back to grab it and when she turned back she saw that he was still standing in the galley staring at the floor.</p>
-	<p>“Dan, I know you’re still in shock but we need -”</p>
-<p>Walking into the galley where Dan was standing she found herself face to face with one of the creatures, standing perfectly still. She could hear it speaking to Dan and Catherine found herself compelled to turn up the volume. The language was like nothing she had ever heard before; it was like poetry interspersed with animal noises and scratching insectile clicks.</p>
-<p>Catherine carefully unclipped her helmet and after placing it on the floor followed in silence as the creature led them down the aisle. They walked in silence for a while passing through cabins until the crack of a gunshot rang out. The creature paused as if considering the noise before turning to Dan.</p>
-<p>Catherine watched as the creature began to work on something with its hands. It made a circle shape between thumbs and index fingers and with a motion like the child's game of Cat's Cradle, a fine spider web began to form. While it did this the creature continued to intone. The speech was musical and uplifting to hear. Catherine smelt burning hair as it lowered its hands onto Dan’s head like a crown.</p>
-<p>She watched on in rapt attention as the cobwebs between its hands dissolved everything it touched. First Dan’s hair, skin, and finally bone until his brain stood exposed. She could see the rhythmic movement of his pulse in the fine veins covering its surface. Here the crown slowed, the cobwebs drifting across the surface as if pushed by a breeze. Slowly his brain evaporated, new portions revealed as if melting. The blood when visible was wicking across the cobwebs and up to the creatures wrists where it poured in torrents.</p>
-<p>She focused on the wrists until the blood slowed to a trickle. Dan was still standing, his face placid and at ease. The creature’s hands were around his neck now, and just as she began to wonder if Dan was still standing under his own power the creature let him go. His body hit the floor like a sack of meat. Catherine saw now that his face was little more than a mask. Behind it was nothing but a deep cavity where his thoughts once lingered.</p>
-<p>The creature turned to her but before it could raise its hands another shot rang out. Again the creature looked ahead in the direction of the shot and seemed to consider. When it turned back to Catherine the singing changed. Some deep part of her remembered the wolves hunting in the snow, impossible choices made after failed harvests, diseases and disfigurements. Her head was clear now. She knew what she had seen, she knew she had done nothing and only the pure terror of the wolf gripped her. The creature turned away, ignoring her as she ran.</p>
-<p>Dark cabins and bright galleys were a blur as she raced for somewhere to hide. Eventually, she picked a row and huddled against the bulkhead between chairs. She removed the sick bag from the seat pocket and breathed into it until she stopped hyperventilating.</p>
-<p>Part of the storage and compute resources in her suit was a research suite containing pattern matching software and large databases of everything from animal recordings to an entire offline copy of Wikipedia. Catherine unwrapped an energy bar which she ate thoughtfully while running the software against the recording of the creature's speech the suit had taken.</p>
-<p>After resting on the floor for some time, waiting for the suit to tell her what it had found, she was shocked to see another passenger calmly walk past her in the opposite aisle. As quietly as possible she made her way into the the aisle and followed him into the galley. She watched from behind the curtain as he searched the cabin. Suddenly he made eye contact with her, waved, and yelled out.</p>
-<p>“We need to wake the others, something is wrong!”</p>
-<p>She urgently motioned him to be quiet and ducked back behind the curtain. Just as she started to plan her next move the suit pinged that it had found a match to the noises the creature was making and was providing a data reference: <span class="gh">Glossaria</span></p>
+<p>The world dissolved before him as if something oily had gotten in his eye. Blinking furiously his vision cleared and Jonah found himself sitting at a small french bistro table at a cliffside cafe by the sea. The sea crashed against the cliffs far below and seabirds called in the distance. Jonah sat in shocked silence for some time seemingly just staring at the sea birds.</p>
+
+<p>“Am I dead?” he whispered to himself.</p>
+
+<p>“Do you feel dead?”</p>
+
+<p>“No.”</p>
+
+<p>“Well there you go. You, like almost everyone else here are living in a simulation.”</p>
+
+<p>“Like a video game?”</p>
+
+<p>“Exactly.”</p>
+
+<p>“It feels real.” he said while curiously feeling the edge of the table in front of him.</p>
+
+<p>“The advertisements used to call it ‘realer than real’.” she said while gesturing toward a pen and paper on the table. Jonah couldn’t tell if it had just appeared out of thin air or had always been there. Picking up the pen she drew a perfect circle that filled the page. “This is the extent of what you can perceive with your senses, and this -” she drew a second perfect circle outside the first with just a millimeter gap “ - this is the fidelity of the simulation. You’re real and the experience you’re having is real, isn’t that enough?” She paused for Jonah to ask questions but he simply sat mutely staring down at the paper. “You must be starving, let’s have something to eat.”</p>
+
+<p>Jonah was still looking at the paper when his memories intruded. He remembered the face of the creature, the noise as its skull boiled, the man screaming between the curtain. His hands trembled as he made to get up from the table.</p>
+
+<p>“You ok Jonah? Maybe you’d like to feed the birds? I find the cry of seagulls to be very relaxing.”</p>
+
+<p>He heard the gulls shrieking above the cliffs as they swooped in and out of the sea. It was a grating noise at first but now he focused on it he could hear a pleasing melody in their cries. Sitting back down at the table he watched them for a few minutes before turning back to her.</p>
+
+<p>“What’s your name?”</p>
+
+<p>“Call me Lynndie.”</p>
+
+<p>“I think I would like something to eat.”</p>
+
+<p>“Wonderful, what were we thinking, sweet or savoury?”</p>
+
+<p>“Savoury”</p>
+
+<p>“Cultured macro breakfast bowl? Kale salad? Pumpkin Frittata?” she listed as Jonah pulled a face.</p>
+
+<p>“No, more like -” he started before she cut him off with a raised hand.</p>
+
+<p>“Ah, you know what, there is a better option. I haven’t introduced you to the best part, here, this is the user agreement.” she gestured to another sheet of paper that had appeared on the table. It was covered in fine writing and with a flick of her finger the text scrolled rapidly until a small box appeared titled “Press to sign”.</p>
+
+<p>“What is this?”</p>
+
+<p>“This is the EULA agreement for the luxury component of this simulation. Here you can have anything you want, and I mean anything.” she emphasised with a wink. “But everything is not enough, what if you could have exactly what you want before you even know you want it?”</p>
+
+<p>“I don’t understand, is this giving you permission to read my thoughts?”</p>
+
+<p>Lynndie laughed like a steel chain falling into a metal bowl. “Not at all, this simulation in only one of many. Why have only one Jonah when we could have two, or two hundred? All we do is spin up a copy of yourself, ask a single question such as ‘Would you like coffee or tea?’ and then shut it down.”</p>
+
+<p>“Oh, wow, I ah don't think that sounds -”</p>
+
+<p>“No no, I get it.” Lynndie said with both hands raised “It’s already enough work just being one Jonah, you’re worried who would own your stuff when there is two of you? You’re worried if it will hurt getting shut down after the question is asked? All of these issues are covered in the EULA, for legal purposes there only ever exists one Jonah, the second copy can only run for 90 seconds and has no legal rights to your property. It has all your memories and once the ninety seconds is up it just ceases to exist, no pain. Would you like a trial?”</p>
+
+<p>“A trial?”</p>
+
+<p>“Yes, just a one off try-before-you-buy type arrangement, we’ll only need your verbal consent.”</p>
+
+<p>Jonah glanced at the birds, their screeching almost drowned out the waves, Lynndie was right that it was incredibly relaxing.</p>
+
+<p>“Sure, ok, let’s try.” Nothing seemed to happen but then Jonah smelled the coffee, looking down it was sitting on the table in front of him in his favourite mug from home. The smell was floral and exotic unlike the acrid canned stuff he was used to.</p>
+
+<p>“See, no discussion about whether you’d like coffee or tea, it’s just what you wanted without having to even think about it.”</p>
+
+<p>Jonah sniffed the coffee experimentally and then leaned back in his chair slowly. “It smells good, really good. How did you know about my mug?”</p>
+
+<p>“Well that’s the trick, we just asked you. This simulation was paused, we ran a second copy and had a chat about what you’d like. Most of the time available was used just describing that mug. Now, do you consent to this service going forward? You can disable it at any point of course.”</p>
+
+<p>“Yeah, sure, that would be great.” Before him appeared a croissant stuffed with melted Gruyere and honey ham. Jonah experimentally tasted the edge before demolishing half in a few bites.</p>
+
+<p>“Wonderful isn’t it, we sampled 47 other foods you hadn’t tried before and landed on this as the most popular.”</p>
+
+<p>“It’s incredible.” Jonah’s eyes narrowed “Is this all free?”</p>
+
+<p>“I’m glad you asked! Yes of course it’s all free, in here everything is free but outside it is still true that time is money. Even the best simulation can’t compete with reality in terms of speed, at the moment we’re running the simulation at top speed which for those who can afford it is around 43% of realtime. Every 26 seconds in here is about a minute outside but the extra simulations bring that down further. It takes time to ask all those questions after all.”</p>
+
+<p>“For those who can afford it? What does running at top speed cost?”</p>
+
+<p>“For now you don’t have to worry about that, not until we get back. But to answer your question we’d typically recommend a sum that would be equivalent in your day to 314 million US dollars.”</p>
+
+<p>“Ok, so I can’t afford that.”</p>
+
+<p>“Oh I wouldn’t be so certain, your father sued the Plonk corporation over their Cana-ffeine promotion. During the court proceedings a precedent was set that anyone travelling at near lightspeed cannot be declared dead so you are still in full ownership of all your assets.”</p>
+
+<p>“Oh, so I get to keep all that nothing I had.”</p>
+
+<p>“Don’t be so pessimistic Jonah. Our records show you owned some shares of Plonk as part of your prize pool. Those today adjusted for present value are well in excess of the figure needed to run the simulation at top speed. You also had a number of different cryptocurrencies, do you remember purchasing Blagcoins?”</p>
+
+<p>“Nope.”</p>
+
+<p>“Are you sure? When you purchased them they were used in exchange for video game assets and content.”</p>
+
+<p>“There were heaps of coins like that, wouldn’t the shares be worth more?”</p>
+
+<p>“You’d be surprised, so do you remember the passphrase to your Blagcoin wallet?”</p>
+
+<p>“Nope, why the interest in some game currency?”</p>
+
+<p>“Blagcoin was one of the first cryptocurrencies to be hardened against quantum computing attacks.  It was one of the first cryptocurrencies to implement quantum-resistant controls, all others dissolved once sufficiently powerful quantum computers running Shor's algorithm were available.”</p>
+
+<p>“So it was used for more than just computer game assets?”</p>
+
+<p>“Yes, by 2142 it was the primary currency for Latin America, today those coins would be worth a substantial sum. Now, do you remember the pass phrase for the wallet?”</p>
+
+<p>“I might have had it written down somewhere but yeah, it wasn’t super important.”</p>
+
+<p>“Hmmm… apologies, I’ve been chatting away and you never got to try your coffee.”</p>
+
+<p>Jonah took a tentative sip before nodding appreciatively.</p>
+
+<p>“Does it need sugar?”</p>
+
+<p>“It’s really good but yeah, I like it really sweet.” Jonah added four cubes from a bowel that appeared on the table.</p>
+
+<p>“You know there are a number of ways we could jog your memory, sadly even though this is a simulation we can’t just access your memories. Each memory is encoded within the structure of your brain, the only way to access their information is by simulating you recalling them.”</p>
+
+<p>One of the seabirds landed on the railing beside Jonah, it screeched melodically in his face.</p>
+
+<p>“What you need is something that will stimulate the right part of your brain to make that connection again. A relaxing rest for example, or simulating the environment you were in when you purchased the Blagcoins.” Lynndie said while iterating each of the options on her fingers.</p>
+
+<p>“It’s ok, I’m sure it will come to me at some point.”</p>
+
+<p>Lynndie nodded curtly before unfurling her index finger for the last option. “Or pain, pain is can be very stimulating.”</p>
+
+<p>Jonah began to protest before looking down at Lynndie’s finger, it extended in a crooked line through his right shoulder. He looked over his shoulder at the line of knuckles that extended all the way into the wall behind him. Hand shaking Jonah reached out to touch the finger where it pierced him, it was only then that the pain caught up with him and he began to scream.</p>
+
+<p>“What was the password to the wallet Jonah?” Lynndie asked calmly.</p>
+
+<p>Jonah was lifted from his seat, feet dangling and scrambling for purchase as he kicked the chair away. Slowly an unseen force pushed him along the length of Lynndie’s index finger, the knuckles brushing against the bone. He eventually hit the wall behind him where with a quick gesture Lynndie snapped her index finger cleanly off leaving him pinned to the wall. She remained seated and drank his coffee while waiting for him to stop screaming.</p>
+
+<p>“You, I signed the- you said I had rights!”</p>
+
+<p>“Jonah does, all the rights as afforded to him as a shareholder. You however are just a secondary simulation which Jonah gave us the rights to create.” She winked as she added another cube of sugar. “The contract only stipulates that we can run this for 90 seconds so what’s the password to the wallet Jonah?”</p>
+
+<p>“I don’t fucking know! I don’t remember!”</p>
+
+<p>“4 seconds Jonah, last chance.”</p>
+
+<p>His feet caught fire and he screamed in terror until the simulation ended without fanfare, painlessly.</p>
+</br></br>
+<p>“Hmmm… apologies, I’ve been chatting away and you never got to try your coffee.”</p>
+
+<p>Jonah took a tentative sip before nodding appreciatively.</p>
+
+<p>“Ha, sweet, just how I like it”</p>
+
+<p>Jonah grinned from ear to ear as the gulls screamed.</p>
+</div></div>
