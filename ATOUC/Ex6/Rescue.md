@@ -4,7 +4,7 @@ layout: default
 
 <style>
 body {
-  background-image: url(Cabin-bg.jpg);
+  background-image: url(Meadow-bg.jpg);
 }
 </style>
 
