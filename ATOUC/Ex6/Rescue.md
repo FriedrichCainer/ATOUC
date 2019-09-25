@@ -6,9 +6,9 @@ layout: default
 	$(document).ready(function () {
     $(window).scroll(function () {
         if ($(document).scrollTop() > 100) {
-            $("header").addClass("scrolled");
+            $("body").addClass("scrolled");
         } else {
-            $("header").removeClass("scrolled");
+            $("body").removeClass("scrolled");
         }
     });
 });</script>
