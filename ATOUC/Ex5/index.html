@@ -85,7 +85,7 @@
                     <span class="avatar" style="background-image: url(./demo/faces/male/38.jpg)"></span>
                     <span class="ml-2 d-none d-lg-block">
                       <span class="text-default">Jonah Abbott</span>
-                      <small class="text-muted d-block mt-1">Power Gigger</small>
+                      <small class="text-muted d-block mt-1">Gig Guru</small>
                     </span>
                   </a>
                   <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
@@ -171,10 +171,10 @@
                     </div> -->
                   </li>
                   <li class="nav-item dropdown">
-                    <a href="./form-elements.html" class="nav-link"><i class="fe fe-briefcase"></i> Completed Gigs</a>
+                    <a href="#" class="nav-link"><i class="fe fe-briefcase"></i> Completed Gigs</a>
                   </li>
                   <li class="nav-item">
-                    <a href="./gallery.html" class="nav-link"><i class="fe fe-settings"></i> Settings</a>
+                    <a href="#" class="nav-link"><i class="fe fe-settings"></i> Settings</a>
                   </li>
                 </ul>
               </div>
@@ -265,12 +265,13 @@
               <!-- //Dashboard Stats -->
 
               <!-- Image Cards  -->
+              <div class="col-12"> <div class="alert alert-primary">Need a skill certification? Most only take 5 minutes! <a href="#" class="alert-link">Learn more.</a></div></div>
                 <div class="col-lg-6">
                   <div class="card card-aside">
                     <a href="#" class="card-aside-column" style="background-image: url(./images/wireDamage.jpg)"></a>
                     <div class="card-body d-flex flex-column">
                       <h4><a href="#">Identify faulty wiring</a></h4>
-                      <div class="text-muted"><i class="fa fa-bolt"></i>Basic electrical certification required<i class="fa fa-bolt"></i> </br></br>
+                      <div class="text-muted">[Basic electrical certification required]</br></br>
                       Help service bots identify electrical faults.</div>
                       <div class="d-flex align-items-center pt-5 mt-auto">
                         <div>
@@ -288,8 +289,8 @@
                     <a href="#" class="card-aside-column" style="background-image: url(./images/pipes.jpg)"></a>
                     <div class="card-body d-flex flex-column">
                       <h4><a href="#">Pipe obstruction.</a></h4>
-                      <div class="text-muted"><i class="fa fa-wrench"></i>Basic plumbing certification required<i class="fa fa-wrench"></i></br></br>
-                      Help service bots identify blocked pipes and leaks.</div>
+                      <div class="text-muted">[Basic plumbing certification required]</br></br>
+                      Help service bots identify blocked pipes.</div>
                       <div class="d-flex align-items-center pt-5 mt-auto">
                         <div>
                           <button type="submit" class="btn btn-primary ml-auto">Connect to Gig</button>
@@ -304,7 +305,7 @@
               <!-- //Image Cards  -->
 
               <!-- Earnings Graph -->
-              <div class="col-lg-6">
+              <div class="col-12">
                 <div class="card">
                   <div class="card-header">
                     <h3 class="card-title">Gig Activity</h3>
@@ -324,28 +325,28 @@
                         <tr>
                           <td class="w-1"><span class="avatar" style="background-image: url(./demo/faces/male/9.jpg)"></span></td>
                           <td>Ronald Bradley</td>
-                          <td>Initial commit</td>
+                          <td>Product identification</td>
                           <td class="text-nowrap">May 6, 2018</td>
                           <td class="w-1"><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
                         </tr>
                         <tr>
                           <td><span class="avatar">BM</span></td>
                           <td>Russell Gibson</td>
-                          <td>Main structure</td>
+                          <td>Automated Loss Prevention</td>
                           <td class="text-nowrap">April 22, 2018</td>
                           <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
                         </tr>
                         <tr>
                           <td><span class="avatar" style="background-image: url(./demo/faces/female/1.jpg)"></span></td>
                           <td>Beverly Armstrong</td>
-                          <td>Left sidebar adjustments</td>
+                          <td>Object detection</td>
                           <td class="text-nowrap">April 15, 2018</td>
                           <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
                         </tr>
                         <tr>
                           <td><span class="avatar" style="background-image: url(./demo/faces/male/4.jpg)"></span></td>
                           <td>Bobby Knight</td>
-                          <td>Topbar dropdown style</td>
+                          <td>Employee profiling</td>
                           <td class="text-nowrap">April 8, 2018</td>
                           <td><a href="#" class="icon"><i class="fe fe-trash"></i></a></td>
                         </tr>
@@ -431,132 +432,6 @@
                 </script>
               </div>
               <!-- //Earnings Graph -->
-
-              <!-- Pie Chart -->
-              <div class="col-md-6">
-                <div class="alert alert-primary">Need a skill certification? Most only take 5 minutes! <a href="#" class="alert-link">Learn more.</a></div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-header">
-                        <h3 class="card-title">Tasks with bonus</h3>
-                      </div>
-                      <div class="card-body">
-                        <div id="chart-donut" style="height: 12rem;"></div>
-                      </div>
-                    </div>
-                    <script>
-                      require(['c3', 'jquery'], function(c3, $) {
-                      	$(document).ready(function(){
-                      		var chart = c3.generate({
-                      			bindto: '#chart-donut', // id of chart wrapper
-                      			data: {
-                      				columns: [
-                      				    // each columns data
-                      					['data1', 63],
-                      					['data2', 37]
-                      				],
-                      				type: 'donut', // default type of chart
-                      				colors: {
-                      					'data1': tabler.colors["green"],
-                      					'data2': tabler.colors["green-light"]
-                      				},
-                      				names: {
-                      				    // name of each serie
-                      					'data1': 'Maximum',
-                      					'data2': 'Minimum'
-                      				}
-                      			},
-                      			axis: {
-                      			},
-                      			legend: {
-                                      show: false, //hide legend
-                      			},
-                      			padding: {
-                      				bottom: 0,
-                      				top: 0
-                      			},
-                      		});
-                      	});
-                      });
-                    </script>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-header">
-                        <h3 class="card-title">Task types</h3>
-                      </div>
-                      <div class="card-body">
-                        <div id="chart-pie" style="height: 12rem;"></div>
-                      </div>
-                    </div>
-                    <script>
-                      require(['c3', 'jquery'], function(c3, $) {
-                      	$(document).ready(function(){
-                      		var chart = c3.generate({
-                      			bindto: '#chart-pie', // id of chart wrapper
-                      			data: {
-                      				columns: [
-                      				    // each columns data
-                      					['data1', 63],
-                      					['data2', 44],
-                      					['data3', 12],
-                      					['data4', 14]
-                      				],
-                      				type: 'pie', // default type of chart
-                      				colors: {
-                      					'data1': tabler.colors["blue-darker"],
-                      					'data2': tabler.colors["blue"],
-                      					'data3': tabler.colors["blue-light"],
-                      					'data4': tabler.colors["blue-lighter"]
-                      				},
-                      				names: {
-                      				    // name of each serie
-                      					'data1': 'A',
-                      					'data2': 'B',
-                      					'data3': 'C',
-                      					'data4': 'D'
-                      				}
-                      			},
-                      			axis: {
-                      			},
-                      			legend: {
-                                      show: false, //hide legend
-                      			},
-                      			padding: {
-                      				bottom: 0,
-                      				top: 0
-                      			},
-                      		});
-                      	});
-                      });
-                    </script>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body text-center">
-                        <div class="h5">Points</div>
-                        <div class="display-4 font-weight-bold mb-4">241k</div>
-                        <div class="progress progress-sm">
-                          <div class="progress-bar bg-red" style="width: 28%"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body text-center">
-                        <div class="h5">Today profit</div>
-                        <div class="display-4 font-weight-bold mb-4">$52</div>
-                        <div class="progress progress-sm">
-                          <div class="progress-bar bg-green" style="width: 84%"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- //Pie Chart -->
 
               <!-- Stat Boxes
               <div class="col-sm-6 col-lg-3">
@@ -698,6 +573,131 @@
               </div>
               <!-- //Story Loader -->
             </div>
+
+                          <!-- Pie Chart -->
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="card">
+                                  <div class="card-header">
+                                    <h3 class="card-title">Tasks with bonus</h3>
+                                  </div>
+                                  <div class="card-body">
+                                    <div id="chart-donut" style="height: 12rem;"></div>
+                                  </div>
+                                </div>
+                                <script>
+                                  require(['c3', 'jquery'], function(c3, $) {
+                                  	$(document).ready(function(){
+                                  		var chart = c3.generate({
+                                  			bindto: '#chart-donut', // id of chart wrapper
+                                  			data: {
+                                  				columns: [
+                                  				    // each columns data
+                                  					['data1', 63],
+                                  					['data2', 37]
+                                  				],
+                                  				type: 'donut', // default type of chart
+                                  				colors: {
+                                  					'data1': tabler.colors["green"],
+                                  					'data2': tabler.colors["green-light"]
+                                  				},
+                                  				names: {
+                                  				    // name of each serie
+                                  					'data1': 'Maximum',
+                                  					'data2': 'Minimum'
+                                  				}
+                                  			},
+                                  			axis: {
+                                  			},
+                                  			legend: {
+                                                  show: false, //hide legend
+                                  			},
+                                  			padding: {
+                                  				bottom: 0,
+                                  				top: 0
+                                  			},
+                                  		});
+                                  	});
+                                  });
+                                </script>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="card">
+                                  <div class="card-header">
+                                    <h3 class="card-title">Task types</h3>
+                                  </div>
+                                  <div class="card-body">
+                                    <div id="chart-pie" style="height: 12rem;"></div>
+                                  </div>
+                                </div>
+                                <script>
+                                  require(['c3', 'jquery'], function(c3, $) {
+                                  	$(document).ready(function(){
+                                  		var chart = c3.generate({
+                                  			bindto: '#chart-pie', // id of chart wrapper
+                                  			data: {
+                                  				columns: [
+                                  				    // each columns data
+                                  					['data1', 63],
+                                  					['data2', 44],
+                                  					['data3', 12],
+                                  					['data4', 14]
+                                  				],
+                                  				type: 'pie', // default type of chart
+                                  				colors: {
+                                  					'data1': tabler.colors["blue-darker"],
+                                  					'data2': tabler.colors["blue"],
+                                  					'data3': tabler.colors["blue-light"],
+                                  					'data4': tabler.colors["blue-lighter"]
+                                  				},
+                                  				names: {
+                                  				    // name of each serie
+                                  					'data1': 'A',
+                                  					'data2': 'B',
+                                  					'data3': 'C',
+                                  					'data4': 'D'
+                                  				}
+                                  			},
+                                  			axis: {
+                                  			},
+                                  			legend: {
+                                                  show: false, //hide legend
+                                  			},
+                                  			padding: {
+                                  				bottom: 0,
+                                  				top: 0
+                                  			},
+                                  		});
+                                  	});
+                                  });
+                                </script>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="card">
+                                  <div class="card-body text-center">
+                                    <div class="h5">Points</div>
+                                    <div class="display-4 font-weight-bold mb-4">241k</div>
+                                    <div class="progress progress-sm">
+                                      <div class="progress-bar bg-red" style="width: 28%"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <div class="card">
+                                  <div class="card-body text-center">
+                                    <div class="h5">Today profit</div>
+                                    <div class="display-4 font-weight-bold mb-4">$52</div>
+                                    <div class="progress progress-sm">
+                                      <div class="progress-bar bg-green" style="width: 84%"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- //Pie Chart -->
 
           </div>
         </div>
