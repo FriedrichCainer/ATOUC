@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+<style>
+h1 {
+  font-family: aktiv-grotesk,sans-serif
+  font-size: 48px; font-weight: 900;
+  line-height: 1.2;
+  color: #000;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-family: aktiv-grotesk,sans-serif
+  font-size: 48px; font-weight: 900;
+  line-height: 1.2;
+  color: #777;
+  letter-spacing: -1px;
+}
+
+p {
+  color: #000;
+  line-height: 1.77;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+</style>
+
 
 # GanSource just launched the world’s first true General AI Platform
 ## EdgeTech News - 14th Sep 2054
