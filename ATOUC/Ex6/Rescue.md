@@ -5,7 +5,7 @@ layout: default
 <script>
 	$(document).ready(function () {
     $(window).scroll(function () {
-        if ($(document).scrollTop() > 100) {
+        if ($(document).scrollTop() > 50) {
             $("body").addClass("scrolled");
         } else {
             $("body").removeClass("scrolled");
