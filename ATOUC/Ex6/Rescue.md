@@ -1,10 +1,29 @@
 ---
 layout: default
 ---
+<script>
+	$(document).ready(function () {
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 100) {
+            $("header").addClass("scrolled");
+        } else {
+            $("header").removeClass("scrolled");
+        }
+    });
+});</script>
 
-<style>
+
+<style>	
 body {
-  background-image: url(Meadow-bg.jpg);
+    background-image: url(Cabin-bg.jpg);
+    -webkit-transition: background-image 700ms linear;
+    -moz-transition: background-image 700ms linear;
+    -o-transition: background-image 700ms linear;
+    -ms-transition: background-image 700ms linear;
+    transition: background-image 700ms linear;
+}
+body.scrolled {
+    background-image: url(Meadow-bg.jpg);
 }
 </style>
 
