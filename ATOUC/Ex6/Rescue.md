@@ -23,7 +23,7 @@ body {
     transition: background-image 700ms linear;
 }
 body.scrolled {
-    background-image: url(Meadow-bg.jpg);
+    background-image: url(meadow-bg.jpg);
 }
 </style>
 
